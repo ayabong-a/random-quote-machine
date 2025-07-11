@@ -26,16 +26,21 @@ const quotes = [
 
 function App() {
   const [quote, setQuote] = useState(quotes[0]);
+  const [fade, setFade] = useState(false);
 
   const getRandomQuote = () => {
+    setFade(false);
+    setTimeout(() => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     setQuote(quotes[randomIndex]);
+      setFade(true);
+  }, 100);
   };
 
   return (
     <div className="App" style={{ padding: "2rem", textAlign: "center" }}>
       <h1>Echoes of Thought</h1>
-      <blockquote style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>
+      <blockquote className={fade ? "fade-in" : ""}>
         "{quote.text}"<footer>— {quote.author}</footer>
       </blockquote>
       <button onClick={getRandomQuote}>Get New Quote</button>
