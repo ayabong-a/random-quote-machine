@@ -39,6 +39,13 @@ footer {
   opacity: 0.9;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 button {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
@@ -52,6 +59,14 @@ button {
 
 button:hover {
   background-color: #e67e22;
+}
+
+.tweet-btn {
+  background-color: #1da1f2;
+}
+
+.tweet-btn:hover {
+  background-color: #0d8ddc;
 }
 
 .fade-in {
