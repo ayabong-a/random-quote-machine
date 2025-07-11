@@ -83,3 +83,27 @@ button:hover {
     transform: translateY(0);
   }
 }
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .App {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  blockquote {
+    font-size: 1.1rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
