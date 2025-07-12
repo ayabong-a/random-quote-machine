@@ -6,7 +6,7 @@ It displays random inspirational quotes with smooth animations and allows users 
 
 ## Live Demo
 
-[View the demo](I'll put the link here) 
+[View the demo](https://random-quote-aya.netlify.app/)
 
 ## How to Run Locally
 
