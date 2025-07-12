@@ -11,7 +11,7 @@ It displays random inspirational quotes with smooth animations and allows users 
 ## How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/random-quote-machine.git
+git clone https://github.com/ayabong-a/random-quote-machine.git
 cd random-quote-machine
 npm install
 npm start
